@@ -43,12 +43,6 @@ The system is validated using:
 * **GTest-lite:** A lightweight testing framework is used for functional tests, covering adding, updating, deleting, and searching for clients, cars, and service records.
 * **Interface Tests:** The `teszt.cpp` file contains basic interface-level tests to ensure all public methods are callable as specified.
 
-## 🏛️ Class Diagram (UML)
-
-The following UML diagram illustrates the high-level architecture and relationships between the core classes.
-
-*(User: Illeszd be ide a `Terv.pdf` vagy `NHF4 - Dokumentáció.pdf` (6. oldal) fájlban található UML diagram képét. Egy jó link pl.: `![UML Class Diagram](https://i.imgur.com/your-uml-image.png)`)*
-
 ## 💾 File-Based Persistence
 
 The system saves and loads data using two custom `.txt` file formats:
